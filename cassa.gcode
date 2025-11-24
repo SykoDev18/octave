@@ -1,0 +1,13 @@
+M300 S50 (pen up)
+G1 X150 Y150 F3500
+M300 S30 (pen down)
+
+G1 X150 Y0   F3500
+G1 X0   Y0   F3500
+G1 X0   Y150 F3500
+G1 X150 Y150 F3500
+M300 S50 (pen up)
+
+G1 X0 Y0 F3500 (go home)
+
+(Miranda)
